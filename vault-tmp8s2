@@ -1,8 +1,10 @@
 {
   "a9f3k2mq": "https://f1e2-139-5-118-120.ngrok-free.app",
   "p7w1nz84": true,
-  "v5c9b2rt": true,
-  "k3h8y6dx": false,
-  "m2q7j4zn": false,
-  "t6x1c9pw": "App is under maintenance mode."
+  "v5c9b2rt": true,   // dashboard — false = dashboard maintenance page
+  "k3h8y6dx": true,   // app — false = app "Under maintenance" screen (calculator still works)
+  "m2q7j4zn": false,  // read-only — true blocks move-to-vault on dashboard
+  "t6x1c9pw": "",     // maintenance message (shown when k3h8y6dx or p7w1nz84 is false)
+  "w4r9t2xk": 1,      // min app version — app shows "Update required" if its version < this (app is v1; set 2 to trigger)
+  "n6b3v8mq": "Android version mismatch — please update the app." // message on the update screen
 }
